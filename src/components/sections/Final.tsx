@@ -1,6 +1,7 @@
 import React from 'react';
 import { Section, Reveal } from '../ui/Base';
 import { useLanguage } from '../../context/LanguageContext';
+import { Github, Linkedin, FileText, MessageCircle } from 'lucide-react';
 
 export const Philosophy = () => {
   const { t } = useLanguage();
@@ -61,20 +62,70 @@ export const Contact = () => {
               </h2>
             </div>
 
-            <div className="flex flex-col gap-10 pt-12 border-t border-[var(--card-border)]">
-              <a 
-                href={`mailto:${t('contact.email')}`} 
-                className="text-2xl md:text-5xl font-mono hover:text-accent transition-all duration-500 font-bold uppercase tracking-tighter"
-              >
-                {t('contact.email')}
-              </a>
+            <div className="flex flex-col gap-8 pt-12 border-t border-[var(--card-border)]">
+              <div className="flex flex-col gap-4">
+                <a 
+                  href={`mailto:${t('contact.email')}`} 
+                  className="text-2xl md:text-5xl font-mono hover:text-accent transition-all duration-500 font-bold uppercase tracking-tighter"
+                >
+                  {t('contact.email')}
+                </a>
+                <a 
+                  href={`https://wa.me/5511943411721?text=${encodeURIComponent(t('contact.whatsappMessage'))}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-2xl md:text-5xl font-mono hover:text-accent transition-all duration-500 font-bold uppercase tracking-tighter flex items-center gap-6 group"
+                >
+                  <MessageCircle className="w-6 h-6 md:w-10 md:h-10 text-accent group-hover:rotate-12 transition-transform" />
+                  {t('contact.whatsapp')}
+                </a>
+              </div>
               
               <div className="flex flex-wrap gap-8 items-center">
-                <a href="https://www.linkedin.com/in/vitorsacz/" target="blank" className="text-xs uppercase tracking-[0.2em] text-[var(--muted)] hover:text-white transition-colors">{t('contact.links.linkedin')}</a>
+                <a 
+                  href="https://www.linkedin.com/in/vitorsacz/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-[var(--muted)] hover:text-accent transition-colors group"
+                >
+                  <Linkedin className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                  {t('contact.links.linkedin')}
+                </a>
+                
                 <div className="w-1 h-1 bg-[var(--card-border)] rounded-full" />
-                <a href="https://github.com/vitorsacz" target="blank" className="text-xs uppercase tracking-[0.2em] text-[var(--muted)] hover:text-white transition-colors">{t('contact.links.github')}</a>
+                
+                <a 
+                  href="https://github.com/vitorsacz" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-[var(--muted)] hover:text-accent transition-colors group"
+                >
+                  <Github className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                  {t('contact.links.github')}
+                </a>
+                
                 <div className="w-1 h-1 bg-[var(--card-border)] rounded-full" />
-                <a href="public/files" download="CVp-Vitor-Santos.pdf" className="text-xs uppercase tracking-[0.2em] text-[var(--muted)] hover:text-white transition-colors">{t('contact.links.resume')}</a>
+
+                <a 
+                  href={`https://wa.me/5511943411721?text=${encodeURIComponent(t('contact.whatsappMessage'))}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-[var(--muted)] hover:text-accent transition-colors group"
+                >
+                  <MessageCircle className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                  {t('contact.links.whatsapp')}
+                </a>
+                
+                <div className="w-1 h-1 bg-[var(--card-border)] rounded-full" />
+                
+                <a 
+                  href="/CV-Vitor-Santos.pdf" 
+                  download 
+                  className="flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-[var(--muted)] hover:text-accent transition-colors group"
+                >
+                  <FileText className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                  {t('contact.links.resume')}
+                </a>
               </div>
             </div>
           </div>

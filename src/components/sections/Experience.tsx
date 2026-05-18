@@ -2,15 +2,20 @@ import React from 'react';
 import { Section, Reveal } from '../ui/Base';
 import { useLanguage } from '../../context/LanguageContext';
 
-export const Experience = () => {
+interface ExperienceProps {
+  id?: string;
+  translationKey?: string;
+}
+
+export const Experience = ({ id = "experience", translationKey = "experience" }: ExperienceProps) => {
   const { t } = useLanguage();
-  const items = t('experience.items');
+  const items = t(`${translationKey}.items`);
 
   return (
-    <Section id="experience" className="border-t border-[var(--card-border)]">
+    <Section id={id} className="border-t border-[var(--card-border)]">
       <Reveal>
-        <span className="text-[10px] uppercase tracking-[0.2em] text-accent mb-6 font-bold block">{t('experience.label')}</span>
-        <h2 className="text-5xl font-black mb-20 uppercase">{t('experience.title')}</h2>
+        <span className="text-[10px] uppercase tracking-[0.2em] text-accent mb-6 font-bold block">{t(`${translationKey}.label`)}</span>
+        <h2 className="text-5xl font-black mb-20 uppercase">{t(`${translationKey}.title`)}</h2>
       </Reveal>
 
       <div className="space-y-0">

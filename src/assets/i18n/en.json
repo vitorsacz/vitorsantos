@@ -1,10 +1,13 @@
 {
   "nav": {
     "expertise": "Expertise",
+    "about": "About",
     "experience": "Experience",
     "projects": "Projects",
+    "education": "Education",
     "contact": "Contact"
   },
+  "education_nav": "Education",
   "hero": {
     "title": "Engineering Scalable Systems with Architectural Precision",
     "subtitle": "Full Stack Developer | Backend Specialist | Digital Craftsman",
@@ -12,8 +15,19 @@
     "cta_primary": "Explore My Work",
     "cta_secondary": "Start a Conversation"
   },
+  "about": {
+    "label": "01 // Professional Profile",
+    "title": "About Me",
+    "description": "Software Engineer focused on creating modern solutions through clean code, solid architectures and deep business understanding. Inspired by music, I believe that attention to detail is what transforms ordinary experiences into something memorable.",
+    "highlights": [
+      "Focused on Software Architecture",
+      "Cloud & Backend Expertise",
+      "Technical Team Mentorship",
+      "Open Source Enthusiast"
+    ]
+  },
   "expertise": {
-    "label": "01 // Core Domains",
+    "label": "04 // Core Domains",
     "title": "Technical Excellence & Precision",
     "items": [
       {
@@ -35,25 +49,89 @@
     ]
   },
   "experience": {
-    "label": "02 // Career Evolution",
-    "title": "Building Reliable Platforms",
+    "label": "02 // Professional Experience",
+    "title": "Professional Experience",
     "items": [
       {
-        "company": "Tech Lead & Software Architect",
-        "period": "2021 — Present",
-        "role": "Full Stack Engineer (Mid-Senior)",
-        "description": "Driving technical decisions that impact scalability and user experience. I specialize in bridging the gap between business needs and technical implementation through clean, documented, and tested code.",
+        "company": "CI&T",
+        "period": "Aug 2025 — Present",
+        "role": "Mid-Level Software Developer",
+        "description": "Developing robust APIs and modern web applications in high-availability environments and Azure Cloud.",
         "highlights": [
-          "Leading infrastructure shifts from monolithic architectures to distributed microservices.",
-          "Mentoring engineering teams on best practices for code quality and architectural patterns.",
-          "Optimizing core system performance, reducing latency by over 40% in high-traffic APIs.",
-          "Implementing unified authentication and identity management systems across multiple platforms."
+          "Java with Spring Boot API development and Angular/TypeScript front-end creation.",
+          "Integration of Azure Cloud services and implementation of CI/CD pipelines.",
+          "Formal 'TeamWork & Resilience' recognition while working with an international team (USA).",
+          "Focus on building resilient systems and architecture for high availability."
+        ]
+      },
+      {
+        "company": "CI&T (Allocated to Bradesco)",
+        "period": "Aug 2024 — Aug 2025",
+        "role": "Junior Software Developer",
+        "description": "Full Stack performance at Bradesco Global Solutions, focusing on security and banking modernization.",
+        "highlights": [
+          "Integration of the new Btoken authorizer into critical transactional journeys.",
+          "Development of batch payment systems and facial biometry features.",
+          "Journey migration to Azure and automation of performance tests.",
+          "Working with Java, Node.js, and Angular under agile methodologies."
+        ]
+      },
+      {
+        "company": "Lines App",
+        "period": "Aug 2022 — Aug 2024",
+        "role": "Full Stack Developer (Freelance)",
+        "description": "Development of cross-platform solutions focused on mobile experience and scalability.",
+        "highlights": [
+          "Mobile application development using React Native and JavaScript.",
+          "End-to-end project creation with a focus on performance and usability.",
+          "Implementation of business logic in distributed environments."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "label": "03 // Academic Background",
+    "title": "Academic Background",
+    "items": [
+      {
+        "company": "FIAP",
+        "period": "Jan 2026 — Dec 2026",
+        "role": "Postgraduate in Software Architecture",
+        "description": "Advanced specialization in complex systems architecture and modern infrastructure.",
+        "highlights": [
+          "Architecture: Deep dive into DDD, Clean Architecture, and SAGA Patterns.",
+          "DevOps: Advanced practice with Kubernetes, Terraform, and CI/CD.",
+          "Microservices: API Gateway, Service Mesh, and monolith refactoring.",
+          "Data & Management: NoSQL modeling, Security (OWASP), and Leadership."
+        ]
+      },
+      {
+        "company": "FIAP",
+        "period": "Aug 2023 — Aug 2025",
+        "role": "Technologist in Systems Analysis & Dev",
+        "description": "Graduation focused on Full Stack development, Artificial Intelligence, and Innovation.",
+        "highlights": [
+          "Development: Full Stack with Java (DDD), Python, and React.JS.",
+          "AI & Data: SQL/NoSQL modeling and Generative AI applications.",
+          "Infrastructure: DevOps practices, Cloud (AWS/Azure), and Docker.",
+          "Innovation: Participation in Startup One and IoT/IoB studies."
+        ]
+      },
+      {
+        "company": "Fundação Bradesco",
+        "period": "Aug 2022 — Jun 2024",
+        "role": "Technical Degree in Systems Development",
+        "description": "Technical journey start with a focus on web, mobile, and agile management.",
+        "highlights": [
+          "Technical Focus: Web/Mobile development with JS, PHP, and SQL.",
+          "Business: Agile project management, entrepreneurship, and startups.",
+          "Design: Digital design fundamentals and data modeling."
         ]
       }
     ]
   },
   "projects": {
-    "label": "03 // Featured Work",
+    "label": "05 // Featured Work",
     "title": "Solving Technical Challenges",
     "items": [
       {
@@ -81,7 +159,7 @@
     ]
   },
   "philosophy": {
-    "label": "04 // Developer DNA",
+    "label": "06 // Developer DNA",
     "title": "Quality is not an accident.",
     "description": "Software engineering is more than just writing code; it's about solving human problems through technical mastery. I believe in writing code for humans to read and machines to execute.",
     "items": [
@@ -104,9 +182,12 @@
     "title": "Let's build something Together.",
     "highlight": "Together",
     "email": "vitorsacz@gmail.com",
+    "whatsapp": "+55 11 94341-1721",
+    "whatsappMessage": "Ola, everything ok? I was looking at your portfolio and I'm reaching out",
     "links": {
       "linkedin": "LinkedIn",
       "github": "GitHub",
+      "whatsapp": "WhatsApp",
       "resume": "Portfolio PDF"
     }
   }

@@ -4,10 +4,10 @@ import { motion } from 'motion/react';
 export const GridBackground = () => (
   <div className="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
     <div 
-      className="absolute inset-0 opacity-[0.03]" 
+      className="absolute inset-0" 
       style={{
-        backgroundImage: `linear-gradient(var(--color-border) 1px, transparent 1px), 
-                         linear-gradient(90deg, var(--color-border) 1px, transparent 1px)`,
+        backgroundImage: `linear-gradient(var(--grid-line) 1px, transparent 1px), 
+                         linear-gradient(90deg, var(--grid-line) 1px, transparent 1px)`,
         backgroundSize: '40px 40px'
       }}
     />

@@ -18,6 +18,7 @@
     --text: #E5E5E5;
     --card-bg: #161616;
     --card-border: #222222;
+    --grid-line: rgba(255, 255, 255, 0.05);
     --nav-bg: rgba(15, 15, 15, 0.9);
     --muted: #888888;
     --muted-light: #444444;
@@ -29,6 +30,7 @@
     --text: #0F0F0F;
     --card-bg: #E5E5E5;
     --card-border: #D1D1D1;
+    --grid-line: rgba(0, 0, 0, 0.05);
     --nav-bg: rgba(245, 245, 245, 0.9);
     --muted: #666666;
     --muted-light: #BBBBBB;

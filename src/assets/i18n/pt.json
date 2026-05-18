@@ -1,10 +1,13 @@
 {
   "nav": {
     "expertise": "Especialidades",
+    "about": "Sobre",
     "experience": "Experiência",
     "projects": "Projetos",
+    "education": "Formação",
     "contact": "Contato"
   },
+  "education_nav": "Formação",
   "hero": {
     "title": "Engenharia de Sistemas com Precisão Arquitetural",
     "subtitle": "Desenvolvedor Full Stack | Especialista Backend | Artesão Digital",
@@ -12,8 +15,19 @@
     "cta_primary": "Explorar Meu Trabalho",
     "cta_secondary": "Iniciar uma Conversa"
   },
+  "about": {
+    "label": "01 // Perfil Profissional",
+    "title": "Sobre Mim",
+    "description": "Engenheiro de Software focado em criar soluções modernas através de código limpo, boas arquiteturas e entendimento profundo do negócio. Inspirado pela música, acredito que atenção aos detalhes é o que transforma experiências comuns em algo memorável.",
+    "highlights": [
+      "Focado em Arquitetura de Software",
+      "Experiência em Cloud & Backend",
+      "Mentoria de Times Técnicos",
+      "Entusiasta de Open Source"
+    ]
+  },
   "expertise": {
-    "label": "01 // Domínios Core",
+    "label": "04 // Domínios Core",
     "title": "Excelência Técnica & Precisão",
     "items": [
       {
@@ -35,25 +49,89 @@
     ]
   },
   "experience": {
-    "label": "02 // Evolução de Carreira",
-    "title": "Construindo Plataformas Confiáveis",
+    "label": "02 // Experiência Profissional",
+    "title": "Experiência Profissional",
     "items": [
       {
-        "company": "Liderança Técnica & Arquitetura",
-        "period": "2021 — Presente",
-        "role": "Engenheiro Full Stack (Pleno-Sênior)",
-        "description": "Direcionando decisões técnicas que impactam escalabilidade e experiência do usuário. Focado em conectar necessidades de negócio com implementação técnica robusta.",
+        "company": "CI&T",
+        "period": "Ago 2025 — Momento",
+        "role": "Mid-Level Software Developer",
+        "description": "Desenvolvimento de APIs robustas e aplicações web modernas em ambientes de alta disponibilidade e nuvem Azure.",
         "highlights": [
-          "Liderando transições de arquiteturas monolíticas para microsserviços distribuídos.",
-          "Mentorado times de engenharia nas melhores práticas de qualidade de código.",
-          "Otimizando a performance de sistemas core, reduzindo latência em mais de 40%.",
-          "Implementando sistemas unificados de autenticação e identidade (IAM)."
+          "Desenvolvimento de APIs Java com Spring Boot e front-ends Angular/TypeScript.",
+          "Integração de serviços Azure Cloud e implementação de pipelines CI/CD.",
+          "Reconhecimento formal de 'TeamWork & Resiliência' em time internacional (EUA).",
+          "Foco em sistemas resilientes e arquitetura para alta disponibilidade."
+        ]
+      },
+      {
+        "company": "CI&T (Alocado no Bradesco)",
+        "period": "Ago 2024 — Ago 2025",
+        "role": "Junior Software Developer",
+        "description": "Atuação Full Stack no canal Bradesco Global Solutions, focando em segurança e modernização bancária.",
+        "highlights": [
+          "Integração do novo autorizador Btoken em jornadas transacionais críticas.",
+          "Desenvolvimento de sistemas de pagamentos em lote e biometria facial.",
+          "Migração de jornadas para nuvem Azure e automação de testes de performance.",
+          "Atuação com Java, Node.js e Angular sob metodologias ágeis."
+        ]
+      },
+      {
+        "company": "Lines App",
+        "period": "Ago 2022 — Ago 2024",
+        "role": "Full Stack Developer (Autônomo)",
+        "description": "Desenvolvimento de soluções cross-platform focadas em experiência mobile e escalabilidade.",
+        "highlights": [
+          "Desenvolvimento de aplicações móveis utilizando React Native e JavaScript.",
+          "Criação de projetos ponta a ponta com foco em performance e usabilidade.",
+          "Implementação de lógica de negócio em ambientes distribuídos."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "label": "03 // Formação Acadêmica",
+    "title": "Formação Acadêmica",
+    "items": [
+      {
+        "company": "FIAP",
+        "period": "Jan 2026 — Dez 2026",
+        "role": "Pós-graduação em Arquitetura de Software",
+        "description": "Especialização avançada em arquitetura de sistemas complexos e infraestrutura moderna.",
+        "highlights": [
+          "Arquitetura: Deep dive em DDD, Clean Architecture e SAGA Patterns.",
+          "DevOps: Prática avançada com Kubernetes, Terraform e CI/CD.",
+          "Microsserviços: API Gateway, Service Mesh e refatoração de monolitos.",
+          "Dados e Gestão: Modelagem NoSQL, Segurança (OWASP) e Liderança."
+        ]
+      },
+      {
+        "company": "FIAP",
+        "period": "Ago 2023 — Ago 2025",
+        "role": "Tecnólogo em Análise e Desenv. de Sistemas",
+        "description": "Formação focada em desenvolvimento Full Stack, Inteligência Artificial e Inovação.",
+        "highlights": [
+          "Desenvolvimento: Full Stack com Java (DDD), Python e React.JS.",
+          "IA e Dados: Modelagem SQL/NoSQL e aplicações de Generative AI.",
+          "Infraestrutura: Práticas de DevOps, Cloud (AWS/Azure) e Docker.",
+          "Inovação: Participação no Startup One e estudos de IoT/IoB."
+        ]
+      },
+      {
+        "company": "Fundação Bradesco",
+        "period": "Ago 2022 — Jun 2024",
+        "role": "Ensino Técnico em Desenvolvimento de Sistemas",
+        "description": "Início da jornada técnica com foco em web, mobile e gestão ágil.",
+        "highlights": [
+          "Foco Técnico: Desenvolvimento Web/Mobile com JS, PHP e SQL.",
+          "Business: Gestão ágil de projetos, empreendedorismo e startups.",
+          "Design: Fundamentos de design digital e modelagem de dados."
         ]
       }
     ]
   },
   "projects": {
-    "label": "03 // Trabalhos em Destaque",
+    "label": "05 // Trabalhos em Destaque",
     "title": "Resolvendo Ciclos de Complexidade",
     "items": [
       {
@@ -81,7 +159,7 @@
     ]
   },
   "philosophy": {
-    "label": "04 // DNA de Desenvolvedor",
+    "label": "06 // DNA de Desenvolvedor",
     "title": "Qualidade não é um acidente.",
     "description": "Engenharia de software é resolver problemas humanos através da maestria técnica. Acredito em escrever código para humanos lerem e máquinas executarem.",
     "items": [
@@ -104,9 +182,12 @@
     "title": "Vamos construir algo Juntos.",
     "highlight": "Juntos",
     "email": "vitorsacz@gmail.com",
+    "whatsapp": "+55 11 94341-1721",
+    "whatsappMessage": "Ola, tudo bem ? Estava vendo seu portfolio e entrei em contato",
     "links": {
       "linkedin": "LinkedIn",
       "github": "GitHub",
+      "whatsapp": "WhatsApp",
       "resume": "PDF Portfolio"
     }
   }
