@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Vitor Santos - Portfolio
 
-# Run and deploy your AI Studio app
+Bem-vindo ao meu portfolio pessoal. Este projeto foi desenvolvido para apresentar minha trajetória profissional, formação acadêmica e as competências técnicas que venho aprimorando como Engenheiro de Software.
 
-This contains everything you need to run your app locally.
+## 🚀 Sobre Mim
 
-View your app in AI Studio: https://ai.studio/apps/14f0d02c-dab1-4260-8f43-5cc85236b0d4
+Sou um desenvolvedor focado em criar soluções modernas através de código limpo, arquiteturas sólidas (DDD, Clean Architecture) e um entendimento profundo das necessidades de negócio. Atualmente, estou cursando Pós-graduação em **Arquitetura de Software** na **FIAP**, onde exploro padrões avançados de microsserviços, DevOps e infraestrutura.
 
-## Run Locally
+Minha jornada é movida pela busca constante de evolução técnica e pela paixão de transformar ciclos de complexidade em experiências fluidas e memoráveis.
 
-**Prerequisites:**  Node.js
+## 🛠️ Stack Tecnológica
 
+Este portfolio foi construído utilizando tecnologias modernas de desenvolvimento web:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **React 18** com **TypeScript**
+- **Vite** como build tool
+- **Tailwind CSS** para estilização utilitária e design responsivo
+- **Framer Motion** para animações e micro-interações fluidas
+- **Lucide React** para iconografia
+- **i18next** (Suporte multi-idioma: Português e Inglês)
+
+## 📌 Funcionalidades
+
+- **Design Responsivo:** Adaptado para Mobile, Tablet e Desktop.
+- **Dark/Light Mode:** Suporte completo a temas visuais.
+- **Internacionalização:** Alternância em tempo real entre PT-BR e EN.
+- **Seções Detalhadas:**
+  - Experiência Profissional
+  - Formação Acadêmica (Especialização, Tecnólogo e Técnico)
+  - Expertise Técnica
+  - Projetos em Destaque
+  - Filosofia de Desenvolvimento
+
+## 🎓 Formação em Destaque
+
+- **Pós-graduação em Arquitetura de Software** - FIAP (2026)
+- **Análise e Desenvolvimento de Sistemas** - FIAP (2025)
+- **Desenvolvimento de Sistemas** - Fundação Bradesco (2024)
+
+---
+
+Desenvolvido com foco em precisão arquitetural e estética minimalista.
