@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "expertise": "Expertise",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Engineering Scalable Systems with Architectural Precision",
+    "subtitle": "Full Stack Architect | Backend Specialist | Digital Craftsman",
+    "description": "I build robust digital ecosystems where performance meets maintainability. My approach combines deep technical expertise with a product-focused mindset, turning complex problems into elegant, scalable solutions.",
+    "cta_primary": "Explore My Work",
+    "cta_secondary": "Start a Conversation"
+  },
+  "expertise": {
+    "label": "01 // Core Domains",
+    "title": "Engineering Excellence & Technical Lead",
+    "items": [
+      {
+        "category": "Modern Backend",
+        "skills": ["Node.js / TypeScript", "Java / Spring Boot", "PostgreSQL / MongoDB", "Redis & Caching Strategies", "GraphQL & RESTful APIs"]
+      },
+      {
+        "category": "Infrastructure & Ops",
+        "skills": ["Docker & Kubernetes", "CI/CD Automation", "AWS / Azure Ecosystems", "Infrastructure as Code (Terraform)", "Monitoring & Observability"]
+      },
+      {
+        "category": "Frontend & UI",
+        "skills": ["React / Next.js", "Tailwind CSS", "State Management (Redux/Zustand)", "Performance Optimization", "Interaction Design"]
+      }
+    ]
+  },
+  "experience": {
+    "label": "02 // Career Evolution",
+    "title": "Building Reliable Platforms",
+    "items": [
+      {
+        "company": "Tech Lead & Software Architect",
+        "period": "2021 — Present",
+        "role": "Full Stack Engineer (Mid-Senior)",
+        "description": "Driving technical decisions that impact scalability and user experience. I specialize in bridging the gap between business needs and technical implementation through clean, documented, and tested code.",
+        "highlights": [
+          "Leading infrastructure shifts from monolithic architectures to distributed microservices.",
+          "Mentoring engineering teams on best practices for code quality and architectural patterns.",
+          "Optimizing core system performance, reducing latency by over 40% in high-traffic APIs.",
+          "Implementing unified authentication and identity management systems across multiple platforms."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "label": "03 // Featured Work",
+    "title": "Solving Technical Challenges",
+    "items": [
+      {
+        "id": "system-orchestration",
+        "title": "ScaleFlow: Distributed Orchestrator",
+        "role": "Lead Architect",
+        "context": "Modern web applications require high reliability and horizontal scalability across different cloud providers.",
+        "problem": "Managing state synchronization and service discovery in a multi-region environment was causing significant downtime.",
+        "complexity": "Needed to ensure data eventual consistency while maintaining sub-second user response times.",
+        "decision": "Developed a custom orchestration layer using Event-Driven Architecture and message queuing to decouple critical services.",
+        "result": "Reduced system downtime to 99.99% and significantly improved developers' deployment velocity.",
+        "tech": ["TypeScript", "Node.js", "Redis", "Docker", "RabbitMQ"]
+      },
+      {
+        "id": "performance-engine",
+        "title": "Real-time Analytics Engine",
+        "role": "Full Stack Developer",
+        "context": "Users needed instant feedback on complex data sets without refreshing the page or waiting for slow processing.",
+        "problem": "Legacy queries were taking upwards of 10 seconds to process millions of data points.",
+        "complexity": "Streaming data processing with real-time visualization on the frontend without overloading the client.",
+        "decision": "Migrated to a column-oriented database for analytics and implemented WebSockets for real-time data delivery.",
+        "result": "Query times dropped from 10s to <100ms, providing a seamless 'live' feel to the application dashboard.",
+        "tech": ["Next.js", "Go", "PostgreSQL", "Apache Kafka", "WebSockets"]
+      }
+    ]
+  },
+  "philosophy": {
+    "label": "04 // Developer DNA",
+    "title": "Quality is not an accident.",
+    "description": "Software engineering is more than just writing code; it's about solving human problems through technical mastery. I believe in writing code for humans to read and machines to execute.",
+    "items": [
+      {
+        "title": "Intentional Design",
+        "text": "Every abstraction, library choice, and architectural decision should have a clear 'why' behind it."
+      },
+      {
+        "title": "User-Centric Tech",
+        "text": "I build with the end user in mind. If a feature isn't usable or performant, the cleanest code in the world won't save it."
+      },
+      {
+        "title": "Continuous Evolution",
+        "text": "The web moves fast. I stay at the forefront by constantly experimenting, learning, and refining my engineering toolkit."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Open for Collaboration",
+    "title": "Let's build something extraordinary.",
+    "links": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "resume": "Portfolio PDF"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "expertise": "Especialidades",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Engenharia de Sistemas com Precisão Arquitetural",
+    "subtitle": "Arquiteto Full Stack | Especialista Backend | Artesão Digital",
+    "description": "Construo ecossistemas digitais robustos onde performance encontra manutenibilidade. Minha abordagem combina expertise técnica profunda com uma mentalidade focada em produto.",
+    "cta_primary": "Explorar Meu Trabalho",
+    "cta_secondary": "Iniciar uma Conversa"
+  },
+  "expertise": {
+    "label": "01 // Domínios Core",
+    "title": "Excelência Técnica & Liderança em Engenharia",
+    "items": [
+      {
+        "category": "Backend Moderno",
+        "skills": ["Node.js / TypeScript", "Java / Spring Boot", "PostgreSQL / MongoDB", "Redis & Caching", "GraphQL & RESTful APIs"]
+      },
+      {
+        "category": "Infra & Ops",
+        "skills": ["Docker & Kubernetes", "Automação CI/CD", "AWS / Azure", "Terraform (IaC)", "Observabilidade"]
+      },
+      {
+        "category": "Frontend & UI",
+        "skills": ["React / Next.js", "Tailwind CSS", "Zustand / Redux", "Otimização de Performance", "Interaction Design"]
+      }
+    ]
+  },
+  "experience": {
+    "label": "02 // Evolução de Carreira",
+    "title": "Construindo Plataformas Confiáveis",
+    "items": [
+      {
+        "company": "Liderança Técnica & Arquitetura",
+        "period": "2021 — Presente",
+        "role": "Engenheiro Full Stack (Pleno-Sênior)",
+        "description": "Direcionando decisões técnicas que impactam escalabilidade e experiência do usuário. Focado em conectar necessidades de negócio com implementação técnica robusta.",
+        "highlights": [
+          "Liderando transições de arquiteturas monolíticas para microsserviços distribuídos.",
+          "Mentorado times de engenharia nas melhores práticas de qualidade de código.",
+          "Otimizando a performance de sistemas core, reduzindo latência em mais de 40%.",
+          "Implementando sistemas unificados de autenticação e identidade (IAM)."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "label": "03 // Trabalhos em Destaque",
+    "title": "Resolvendo Ciclos de Complexidade",
+    "items": [
+      {
+        "id": "system-orchestration",
+        "title": "ScaleFlow: Orquestrador Distribuído",
+        "role": "Arquiteto Líder",
+        "context": "Aplicações web modernas exigem alta confiabilidade e escalabilidade horizontal entre diferentes provedores de cloud.",
+        "problem": "Gerenciar a sincronização de estado e service discovery em ambientes multi-região estava causando downtimes frequentes.",
+        "complexity": "Necessidade de garantir consistência eventual de dados mantendo tempos de resposta sub-segundo.",
+        "decision": "Desenvolvido camada de orquestração customizada usando EDA (Event-Driven Architecture) para desacoplar serviços críticos.",
+        "result": "Redução de downtime para 99.99% e aumento significativo na velocidade de deploy do time.",
+        "tech": ["TypeScript", "Node.js", "Redis", "Docker", "RabbitMQ"]
+      },
+      {
+        "id": "performance-engine",
+        "title": "Motor de Analytics em Tempo Real",
+        "role": "Desenvolvedor Full Stack",
+        "context": "Usuários precisavam de feedback instantâneo sobre conjuntos de dados complexos sem refresh de página.",
+        "problem": "Queries legadas levavam mais de 10 segundos para processar milhões de pontos de dados.",
+        "complexity": "Processamento de dados em streaming com visualização em tempo real no frontend sem sobrecarregar o cliente.",
+        "decision": "Migração para banco orientado a colunas e implementação de WebSockets para entrega de dados em tempo real.",
+        "result": "Tempos de query caíram de 10s para <100ms, proporcionando uma experiência fluida de dashboard.",
+        "tech": ["Next.js", "Go", "PostgreSQL", "Apache Kafka", "WebSockets"]
+      }
+    ]
+  },
+  "philosophy": {
+    "label": "04 // DNA de Desenvolvedor",
+    "title": "Qualidade não é um acidente.",
+    "description": "Engenharia de software é resolver problemas humanos através da maestria técnica. Acredito em escrever código para humanos lerem e máquinas executarem.",
+    "items": [
+      {
+        "title": "Design Intencional",
+        "text": "Cada abstração, escolha de biblioteca e decisão arquitetural deve ter um porquê claro."
+      },
+      {
+        "title": "Tech Focada no Usuário",
+        "text": "Construo pensando no usuário final. Se a feature não é usável ou performante, o código mais limpo não a salvará."
+      },
+      {
+        "title": "Evolução Contínua",
+        "text": "A web se move rápido. Mantenho-me na vanguarda experimentando, aprendendo e refinando meu toolkit de engenharia constantemente."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Aberto para Colaborações",
+    "title": "Vamos construir algo extraordinário.",
+    "links": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "resume": "PDF Portfolio"
+    }
+  }
+}
