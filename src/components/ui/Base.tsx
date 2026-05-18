@@ -11,7 +11,7 @@ export const GridBackground = () => (
         backgroundSize: '40px 40px'
       }}
     />
-    <div className="absolute inset-0 bg-radial-gradient from-transparent via-ink/50 to-ink" />
+    <div className="absolute inset-0 bg-radial-gradient from-transparent via-[var(--bg)]/50 to-[var(--bg)]" />
   </div>
 );
 

@@ -7,26 +7,30 @@
   },
   "hero": {
     "title": "Engineering Scalable Systems with Architectural Precision",
-    "subtitle": "Full Stack Architect | Backend Specialist | Digital Craftsman",
+    "subtitle": "Full Stack Developer | Backend Specialist | Digital Craftsman",
     "description": "I build robust digital ecosystems where performance meets maintainability. My approach combines deep technical expertise with a product-focused mindset, turning complex problems into elegant, scalable solutions.",
     "cta_primary": "Explore My Work",
     "cta_secondary": "Start a Conversation"
   },
   "expertise": {
     "label": "01 // Core Domains",
-    "title": "Engineering Excellence & Technical Lead",
+    "title": "Technical Excellence & Precision",
     "items": [
       {
-        "category": "Modern Backend",
-        "skills": ["Node.js / TypeScript", "Java / Spring Boot", "PostgreSQL / MongoDB", "Redis & Caching Strategies", "GraphQL & RESTful APIs"]
+        "category": "Backend & APIs",
+        "skills": ["Node.js / TypeScript", "Java Spring Boot", "JavaScript / Python", "RESTful APIs", "Microservices Architecture"]
       },
       {
-        "category": "Infrastructure & Ops",
-        "skills": ["Docker & Kubernetes", "CI/CD Automation", "AWS / Azure Ecosystems", "Infrastructure as Code (Terraform)", "Monitoring & Observability"]
+        "category": "Frontend & Mobile",
+        "skills": ["React / Next.js / Vite", "Angular", "Tailwind CSS / SCSS", "Performance Optimization", "React Native", "UI/UX & User Experience"]
       },
       {
-        "category": "Frontend & UI",
-        "skills": ["React / Next.js", "Tailwind CSS", "State Management (Redux/Zustand)", "Performance Optimization", "Interaction Design"]
+        "category": "Infra & Cloud",
+        "skills": ["Docker", "CI/CD Automation", "AWS / Azure / GCP", "Observability / SRE"]
+      },
+      {
+        "category": "Engineering & Core",
+        "skills": ["Git / GitHub", "Version Control", "Clean Code & SOLID", "Software Architecture"]
       }
     ]
   },
@@ -97,7 +101,9 @@
   },
   "contact": {
     "label": "Open for Collaboration",
-    "title": "Let's build something extraordinary.",
+    "title": "Let's build something Together.",
+    "highlight": "Together",
+    "email": "vitorsacz@gmail.com",
     "links": {
       "linkedin": "LinkedIn",
       "github": "GitHub",

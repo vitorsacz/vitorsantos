@@ -7,26 +7,30 @@
   },
   "hero": {
     "title": "Engenharia de Sistemas com Precisão Arquitetural",
-    "subtitle": "Arquiteto Full Stack | Especialista Backend | Artesão Digital",
+    "subtitle": "Desenvolvedor Full Stack | Especialista Backend | Artesão Digital",
     "description": "Construo ecossistemas digitais robustos onde performance encontra manutenibilidade. Minha abordagem combina expertise técnica profunda com uma mentalidade focada em produto.",
     "cta_primary": "Explorar Meu Trabalho",
     "cta_secondary": "Iniciar uma Conversa"
   },
   "expertise": {
     "label": "01 // Domínios Core",
-    "title": "Excelência Técnica & Liderança em Engenharia",
+    "title": "Excelência Técnica & Precisão",
     "items": [
       {
-        "category": "Backend Moderno",
-        "skills": ["Node.js / TypeScript", "Java / Spring Boot", "PostgreSQL / MongoDB", "Redis & Caching", "GraphQL & RESTful APIs"]
+        "category": "Backend & APIs",
+        "skills": ["Node.js / TypeScript", "Java Spring Boot", "JavaScript / Python", "RESTful APIs", "Microservices Architecture"]
       },
       {
-        "category": "Infra & Ops",
-        "skills": ["Docker & Kubernetes", "Automação CI/CD", "AWS / Azure", "Terraform (IaC)", "Observabilidade"]
+        "category": "Frontend & Mobile",
+        "skills": ["React / Next.js / Vite", "Angular", "Tailwind CSS / SCSS", "Performance Optimization", "React Native", "UI/UX & User Experience"]
       },
       {
-        "category": "Frontend & UI",
-        "skills": ["React / Next.js", "Tailwind CSS", "Zustand / Redux", "Otimização de Performance", "Interaction Design"]
+        "category": "Infra & Cloud",
+        "skills": ["Docker", "Automação CI/CD", "AWS / Azure / GCP", "Observabilidade / SRE"]
+      },
+      {
+        "category": "Engenharia & Core",
+        "skills": ["Git / GitHub", "Versionamento de Código", "Clean Code & SOLID", "Arquitetura de Software"]
       }
     ]
   },
@@ -97,7 +101,9 @@
   },
   "contact": {
     "label": "Aberto para Colaborações",
-    "title": "Vamos construir algo extraordinário.",
+    "title": "Vamos construir algo Juntos.",
+    "highlight": "Juntos",
+    "email": "vitorsacz@gmail.com",
     "links": {
       "linkedin": "LinkedIn",
       "github": "GitHub",

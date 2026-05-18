@@ -23,19 +23,19 @@
     --muted-light: #444444;
   }
 
-  /* Force Dark Mode as per Editorial Aesthetic design */
+  /* Light Mode Variables */
   :root.light {
-    --bg: #0F0F0F;
-    --text: #E5E5E5;
-    --card-bg: #161616;
-    --card-border: #222222;
-    --nav-bg: rgba(15, 15, 15, 0.9);
-    --muted: #888888;
-    --muted-light: #444444;
+    --bg: #F5F5F5;
+    --text: #0F0F0F;
+    --card-bg: #E5E5E5;
+    --card-border: #D1D1D1;
+    --nav-bg: rgba(245, 245, 245, 0.9);
+    --muted: #666666;
+    --muted-light: #BBBBBB;
   }
 
   body {
-    @apply bg-[var(--bg)] text-[var(--text)] antialiased selection:bg-accent selection:text-white border-[12px] border-[#161616] min-h-screen font-sans;
+    @apply bg-[var(--bg)] text-[var(--text)] antialiased selection:bg-accent selection:text-white border-[12px] border-[var(--card-bg)] min-h-screen font-sans;
   }
 
   h1, h2, h3, h4 {
